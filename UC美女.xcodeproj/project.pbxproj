@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		0CAD3F941C779E5200E91B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F931C779E5200E91B82 /* main.m */; };
 		0CAD3F971C779E5200E91B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F961C779E5200E91B82 /* AppDelegate.m */; };
-		0CAD3F9A1C779E5200E91B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F991C779E5200E91B82 /* ViewController.m */; };
-		0CAD3F9D1C779E5200E91B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3F9B1C779E5200E91B82 /* Main.storyboard */; };
 		0CAD3FA01C779E5200E91B82 /* UC__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F9E1C779E5200E91B82 /* UC__.xcdatamodeld */; };
 		0CAD3FA21C779E5200E91B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FA11C779E5200E91B82 /* Assets.xcassets */; };
 		0CAD3FA51C779E5200E91B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FA31C779E5200E91B82 /* LaunchScreen.storyboard */; };
 		0CAD3FB01C779E5200E91B82 /* UC__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FAF1C779E5200E91B82 /* UC__Tests.m */; };
 		0CAD3FBB1C779E5300E91B82 /* UC__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FBA1C779E5300E91B82 /* UC__UITests.m */; };
+		0CAD3FD71C77A23900E91B82 /* XABeautyBaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FD61C77A23900E91B82 /* XABeautyBaseListController.m */; };
+		0CAD3FDB1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FDA1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m */; };
+		0CAD3FDF1C77A48400E91B82 /* XABeautyFirstListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FDD1C77A48400E91B82 /* XABeautyFirstListCell.m */; };
+		0CAD3FE01C77A48400E91B82 /* XABeautyFirstListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FDE1C77A48400E91B82 /* XABeautyFirstListCell.xib */; };
+		0CAD3FE31C77A6B900E91B82 /* XAFirstList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */; };
+		0CAD3FE51C77A7AF00E91B82 /* beauty0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */; };
+		0CAD3FE81C77AB1000E91B82 /* firstList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE71C77AB1000E91B82 /* firstList.plist */; };
+		0CAD3FEB1C77B5A700E91B82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD3FEA1C77B5A700E91B82 /* UIKit.framework */; };
+		0CAD3FED1C77B5A700E91B82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD3FEC1C77B5A700E91B82 /* CoreGraphics.framework */; };
+		0CAD3FEF1C77B5A700E91B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD3FEE1C77B5A700E91B82 /* Foundation.framework */; };
+		0CAD3FFA1C77B5A700E91B82 /* XAModelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FF91C77B5A700E91B82 /* XAModelDetailController.m */; };
+		0CAD3FFE1C77B5A700E91B82 /* XADetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FFC1C77B5A700E91B82 /* XADetailCell.m */; };
+		0CAD3FFF1C77B5A700E91B82 /* XADetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */; };
+		0CAD40021C77B5A700E91B82 /* XADetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD40011C77B5A700E91B82 /* XADetail.m */; };
+		C9DC74780F1A9AE4DCCEF50B /* libPods-UC美女.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4119F3D8E707CF1720171A /* libPods-UC美女.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +53,6 @@
 		0CAD3F931C779E5200E91B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CAD3F951C779E5200E91B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CAD3F961C779E5200E91B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CAD3F981C779E5200E91B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0CAD3F991C779E5200E91B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0CAD3F9C1C779E5200E91B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CAD3F9F1C779E5200E91B82 /* UC__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UC__.xcdatamodel; sourceTree = "<group>"; };
 		0CAD3FA11C779E5200E91B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAD3FA41C779E5200E91B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +63,30 @@
 		0CAD3FB61C779E5300E91B82 /* UC美女UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UC美女UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAD3FBA1C779E5300E91B82 /* UC__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UC__UITests.m; sourceTree = "<group>"; };
 		0CAD3FBC1C779E5300E91B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAD3FD51C77A23900E91B82 /* XABeautyBaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABeautyBaseListController.h; sourceTree = "<group>"; };
+		0CAD3FD61C77A23900E91B82 /* XABeautyBaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABeautyBaseListController.m; sourceTree = "<group>"; };
+		0CAD3FD91C77A31400E91B82 /* AppDelegate+XABeautyFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XABeautyFirst.h"; sourceTree = "<group>"; };
+		0CAD3FDA1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XABeautyFirst.m"; sourceTree = "<group>"; };
+		0CAD3FDC1C77A48400E91B82 /* XABeautyFirstListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABeautyFirstListCell.h; sourceTree = "<group>"; };
+		0CAD3FDD1C77A48400E91B82 /* XABeautyFirstListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABeautyFirstListCell.m; sourceTree = "<group>"; };
+		0CAD3FDE1C77A48400E91B82 /* XABeautyFirstListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XABeautyFirstListCell.xib; sourceTree = "<group>"; };
+		0CAD3FE11C77A6B900E91B82 /* XAFirstList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAFirstList.h; sourceTree = "<group>"; };
+		0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAFirstList.m; sourceTree = "<group>"; };
+		0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beauty0.jpg; sourceTree = "<group>"; };
+		0CAD3FE71C77AB1000E91B82 /* firstList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = firstList.plist; sourceTree = "<group>"; };
+		0CAD3FEA1C77B5A700E91B82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CAD3FEC1C77B5A700E91B82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CAD3FEE1C77B5A700E91B82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CAD3FF81C77B5A700E91B82 /* XAModelDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAModelDetailController.h; sourceTree = "<group>"; };
+		0CAD3FF91C77B5A700E91B82 /* XAModelDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAModelDetailController.m; sourceTree = "<group>"; };
+		0CAD3FFB1C77B5A700E91B82 /* XADetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADetailCell.h; sourceTree = "<group>"; };
+		0CAD3FFC1C77B5A700E91B82 /* XADetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADetailCell.m; sourceTree = "<group>"; };
+		0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XADetailCell.xib; sourceTree = "<group>"; };
+		0CAD40001C77B5A700E91B82 /* XADetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADetail.h; sourceTree = "<group>"; };
+		0CAD40011C77B5A700E91B82 /* XADetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADetail.m; sourceTree = "<group>"; };
+		6E4119F3D8E707CF1720171A /* libPods-UC美女.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UC美女.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0D1563A481A87BECA9474B /* Pods-UC美女.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UC美女.release.xcconfig"; path = "Pods/Target Support Files/Pods-UC美女/Pods-UC美女.release.xcconfig"; sourceTree = "<group>"; };
+		C248A42A05B66B367BAAF20F /* Pods-UC美女.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UC美女.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UC美女/Pods-UC美女.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAD3FEF1C77B5A700E91B82 /* Foundation.framework in Frameworks */,
+				0CAD3FED1C77B5A700E91B82 /* CoreGraphics.framework in Frameworks */,
+				0CAD3FEB1C77B5A700E91B82 /* UIKit.framework in Frameworks */,
+				C9DC74780F1A9AE4DCCEF50B /* libPods-UC美女.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +124,10 @@
 				0CAD3F911C779E5200E91B82 /* UC美女 */,
 				0CAD3FAE1C779E5200E91B82 /* UC美女Tests */,
 				0CAD3FB91C779E5300E91B82 /* UC美女UITests */,
+				0CAD3FE91C77B5A700E91B82 /* Framework */,
 				0CAD3F901C779E5200E91B82 /* Products */,
+				C875201E305EB34A1AA15797 /* Pods */,
+				E157D1EA5B11DAE5790DACA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +144,8 @@
 		0CAD3F911C779E5200E91B82 /* UC美女 */ = {
 			isa = PBXGroup;
 			children = (
-				0CAD3F951C779E5200E91B82 /* AppDelegate.h */,
-				0CAD3F961C779E5200E91B82 /* AppDelegate.m */,
-				0CAD3F981C779E5200E91B82 /* ViewController.h */,
-				0CAD3F991C779E5200E91B82 /* ViewController.m */,
-				0CAD3F9B1C779E5200E91B82 /* Main.storyboard */,
-				0CAD3FA11C779E5200E91B82 /* Assets.xcassets */,
-				0CAD3FA31C779E5200E91B82 /* LaunchScreen.storyboard */,
-				0CAD3FA61C779E5200E91B82 /* Info.plist */,
-				0CAD3F9E1C779E5200E91B82 /* UC__.xcdatamodeld */,
-				0CAD3F921C779E5200E91B82 /* Supporting Files */,
+				0CAD3FD41C779FE000E91B82 /* Base */,
+				0CAD3FC81C779FD300E91B82 /* Beauty */,
 			);
 			path = "UC美女";
 			sourceTree = "<group>";
@@ -143,6 +176,176 @@
 			path = "UC美女UITests";
 			sourceTree = "<group>";
 		};
+		0CAD3FC81C779FD300E91B82 /* Beauty */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FD81C77A2F000E91B82 /* Base */,
+				0CAD3FC91C779FD300E91B82 /* Category */,
+				0CAD3FCA1C779FD300E91B82 /* Class */,
+				0CAD3FCE1C779FD300E91B82 /* Lib */,
+				0CAD3FCF1C779FD300E91B82 /* Main */,
+				0CAD3FD31C779FD300E91B82 /* Resource */,
+			);
+			path = Beauty;
+			sourceTree = "<group>";
+		};
+		0CAD3FC91C779FD300E91B82 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0CAD3FCA1C779FD300E91B82 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FCB1C779FD300E91B82 /* Controllers */,
+				0CAD3FCC1C779FD300E91B82 /* Models */,
+				0CAD3FCD1C779FD300E91B82 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0CAD3FCB1C779FD300E91B82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CAD3FCC1C779FD300E91B82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CAD3FCD1C779FD300E91B82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CAD3FCE1C779FD300E91B82 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0CAD3FCF1C779FD300E91B82 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FE61C77AAF600E91B82 /* website */,
+				0CAD3FD01C779FD300E91B82 /* Controllers */,
+				0CAD3FD11C779FD300E91B82 /* Models */,
+				0CAD3FD21C779FD300E91B82 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0CAD3FD01C779FD300E91B82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FD51C77A23900E91B82 /* XABeautyBaseListController.h */,
+				0CAD3FD61C77A23900E91B82 /* XABeautyBaseListController.m */,
+				0CAD3FF81C77B5A700E91B82 /* XAModelDetailController.h */,
+				0CAD3FF91C77B5A700E91B82 /* XAModelDetailController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CAD3FD11C779FD300E91B82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FE11C77A6B900E91B82 /* XAFirstList.h */,
+				0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */,
+				0CAD40001C77B5A700E91B82 /* XADetail.h */,
+				0CAD40011C77B5A700E91B82 /* XADetail.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CAD3FD21C779FD300E91B82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FDC1C77A48400E91B82 /* XABeautyFirstListCell.h */,
+				0CAD3FDD1C77A48400E91B82 /* XABeautyFirstListCell.m */,
+				0CAD3FDE1C77A48400E91B82 /* XABeautyFirstListCell.xib */,
+				0CAD3FFB1C77B5A700E91B82 /* XADetailCell.h */,
+				0CAD3FFC1C77B5A700E91B82 /* XADetailCell.m */,
+				0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CAD3FD31C779FD300E91B82 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0CAD3FD41C779FE000E91B82 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3F921C779E5200E91B82 /* Supporting Files */,
+				0CAD3F951C779E5200E91B82 /* AppDelegate.h */,
+				0CAD3F961C779E5200E91B82 /* AppDelegate.m */,
+				0CAD3FA11C779E5200E91B82 /* Assets.xcassets */,
+				0CAD3FA31C779E5200E91B82 /* LaunchScreen.storyboard */,
+				0CAD3FA61C779E5200E91B82 /* Info.plist */,
+				0CAD3F9E1C779E5200E91B82 /* UC__.xcdatamodeld */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0CAD3FD81C77A2F000E91B82 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FD91C77A31400E91B82 /* AppDelegate+XABeautyFirst.h */,
+				0CAD3FDA1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0CAD3FE61C77AAF600E91B82 /* website */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FE71C77AB1000E91B82 /* firstList.plist */,
+			);
+			path = website;
+			sourceTree = "<group>";
+		};
+		0CAD3FE91C77B5A700E91B82 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD3FEE1C77B5A700E91B82 /* Foundation.framework */,
+				0CAD3FEC1C77B5A700E91B82 /* CoreGraphics.framework */,
+				0CAD3FEA1C77B5A700E91B82 /* UIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C875201E305EB34A1AA15797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C248A42A05B66B367BAAF20F /* Pods-UC美女.debug.xcconfig */,
+				BC0D1563A481A87BECA9474B /* Pods-UC美女.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E157D1EA5B11DAE5790DACA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E4119F3D8E707CF1720171A /* libPods-UC美女.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CAD3FBF1C779E5300E91B82 /* Build configuration list for PBXNativeTarget "UC美女" */;
 			buildPhases = (
+				282349B4A1A185321C0B0A8F /* Check Pods Manifest.lock */,
 				0CAD3F8B1C779E5200E91B82 /* Sources */,
 				0CAD3F8C1C779E5200E91B82 /* Frameworks */,
 				0CAD3F8D1C779E5200E91B82 /* Resources */,
+				99E51287A2034BFBE887103D /* Embed Pods Frameworks */,
+				2E4F66C9E1810A9DEC63B347 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +411,7 @@
 		0CAD3F871C779E5200E91B82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XA;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Jake_Smith;
 				TargetAttributes = {
@@ -249,9 +456,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAD3FE51C77A7AF00E91B82 /* beauty0.jpg in Resources */,
 				0CAD3FA51C779E5200E91B82 /* LaunchScreen.storyboard in Resources */,
+				0CAD3FE81C77AB1000E91B82 /* firstList.plist in Resources */,
 				0CAD3FA21C779E5200E91B82 /* Assets.xcassets in Resources */,
-				0CAD3F9D1C779E5200E91B82 /* Main.storyboard in Resources */,
+				0CAD3FE01C77A48400E91B82 /* XABeautyFirstListCell.xib in Resources */,
+				0CAD3FFF1C77B5A700E91B82 /* XADetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +481,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		282349B4A1A185321C0B0A8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4F66C9E1810A9DEC63B347 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UC美女/Pods-UC美女-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E51287A2034BFBE887103D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UC美女/Pods-UC美女-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CAD3F8B1C779E5200E91B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAD3F9A1C779E5200E91B82 /* ViewController.m in Sources */,
+				0CAD3FE31C77A6B900E91B82 /* XAFirstList.m in Sources */,
 				0CAD3F971C779E5200E91B82 /* AppDelegate.m in Sources */,
+				0CAD3FDF1C77A48400E91B82 /* XABeautyFirstListCell.m in Sources */,
+				0CAD40021C77B5A700E91B82 /* XADetail.m in Sources */,
+				0CAD3FD71C77A23900E91B82 /* XABeautyBaseListController.m in Sources */,
+				0CAD3FDB1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m in Sources */,
+				0CAD3FFE1C77B5A700E91B82 /* XADetailCell.m in Sources */,
+				0CAD3FFA1C77B5A700E91B82 /* XAModelDetailController.m in Sources */,
 				0CAD3F941C779E5200E91B82 /* main.m in Sources */,
 				0CAD3FA01C779E5200E91B82 /* UC__.xcdatamodeld in Sources */,
 			);
@@ -315,14 +579,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0CAD3F9B1C779E5200E91B82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CAD3F9C1C779E5200E91B82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CAD3FA31C779E5200E91B82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,22 +672,26 @@
 		};
 		0CAD3FC01C779E5300E91B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C248A42A05B66B367BAAF20F /* Pods-UC美女.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UC美女/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benbenxiongHY.www.UC--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCBeautys.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		0CAD3FC11C779E5300E91B82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0D1563A481A87BECA9474B /* Pods-UC美女.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UC美女/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benbenxiongHY.www.UC--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCBeautys.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -503,6 +763,7 @@
 				0CAD3FC11C779E5300E91B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CAD3FC21C779E5300E91B82 /* Build configuration list for PBXNativeTarget "UC美女Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +772,7 @@
 				0CAD3FC41C779E5300E91B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CAD3FC51C779E5300E91B82 /* Build configuration list for PBXNativeTarget "UC美女UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +781,7 @@
 				0CAD3FC71C779E5300E91B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

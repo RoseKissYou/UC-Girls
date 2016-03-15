@@ -1,5 +1,5 @@
 //
-//  XAModelDetailController.h
+//  XAModelPhotoController.h
 //  UC美女
 //
 //  Created by 小笨熊 on 16/2/20.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XAModelDetailController : UICollectionViewController
+@interface XAModelPhotoController : UICollectionViewController
 @property (strong, nonatomic) NSString *plistName;
-@property (assign, nonatomic) NSString *modelName;
+@property (strong, nonatomic) NSString *photoName;
+
 @end

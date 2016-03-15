@@ -13,4 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *imageCountLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *imagesNameLabel;
+//plist name
+@property (weak, nonatomic) IBOutlet UILabel *plistName;
+
 @end

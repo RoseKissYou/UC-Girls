@@ -10,10 +10,12 @@
 #import <UIKit/UIKit.h>
 
 @interface XADetail : NSObject
-@property (strong, nonatomic) UIImage *imageView;
+@property (strong, nonatomic) NSURL *imageView;
 @property (strong, nonatomic) NSString *imageCount;
 @property (strong, nonatomic) NSString *imageName;
 //跳转网址
 @property (strong, nonatomic) NSString *imageUrl;
 + (id) detailImageListWithDict:(NSDictionary *)dict;
+//plistName
+@property (strong, nonatomic) NSString *plistName;
 @end

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C34968A1C796153006EBE01 /* RoseAebell.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3496891C796153006EBE01 /* RoseAebell.png */; };
+		0C360A091C96D5FB00393BF2 /* TouchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C360A081C96D5FB00393BF2 /* TouchWindow.m */; };
+		0C360A0C1C96DBE700393BF2 /* XATouchBackgroudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C360A0B1C96DBE700393BF2 /* XATouchBackgroudController.m */; };
+		0C360A0E1C96DC1B00393BF2 /* touchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C360A0D1C96DC1B00393BF2 /* touchImage.jpg */; };
+		0C831E041C78A83100734627 /* bigPicture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C831E031C78A83100734627 /* bigPicture.plist */; };
+		0C831E071C78A8F900734627 /* XAModelPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C831E061C78A8F900734627 /* XAModelPhotoController.m */; };
+		0C831E0B1C78B59400734627 /* XABigPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C831E091C78B59400734627 /* XABigPictureCell.m */; };
+		0C831E0C1C78B59400734627 /* XABigPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C831E0A1C78B59400734627 /* XABigPictureCell.xib */; };
+		0C831E0F1C78B5AC00734627 /* XABigPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C831E0E1C78B5AC00734627 /* XABigPicture.m */; };
 		0CAD3F941C779E5200E91B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F931C779E5200E91B82 /* main.m */; };
 		0CAD3F971C779E5200E91B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F961C779E5200E91B82 /* AppDelegate.m */; };
 		0CAD3FA01C779E5200E91B82 /* UC__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3F9E1C779E5200E91B82 /* UC__.xcdatamodeld */; };
@@ -19,7 +28,6 @@
 		0CAD3FDF1C77A48400E91B82 /* XABeautyFirstListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FDD1C77A48400E91B82 /* XABeautyFirstListCell.m */; };
 		0CAD3FE01C77A48400E91B82 /* XABeautyFirstListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FDE1C77A48400E91B82 /* XABeautyFirstListCell.xib */; };
 		0CAD3FE31C77A6B900E91B82 /* XAFirstList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */; };
-		0CAD3FE51C77A7AF00E91B82 /* beauty0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */; };
 		0CAD3FE81C77AB1000E91B82 /* firstList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FE71C77AB1000E91B82 /* firstList.plist */; };
 		0CAD3FEB1C77B5A700E91B82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD3FEA1C77B5A700E91B82 /* UIKit.framework */; };
 		0CAD3FED1C77B5A700E91B82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD3FEC1C77B5A700E91B82 /* CoreGraphics.framework */; };
@@ -28,6 +36,9 @@
 		0CAD3FFE1C77B5A700E91B82 /* XADetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3FFC1C77B5A700E91B82 /* XADetailCell.m */; };
 		0CAD3FFF1C77B5A700E91B82 /* XADetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */; };
 		0CAD40021C77B5A700E91B82 /* XADetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD40011C77B5A700E91B82 /* XADetail.m */; };
+		0CFC88501C92643D00D33283 /* XAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC884F1C92643D00D33283 /* XAViewController.m */; };
+		0CFC88521C92668F00D33283 /* naviImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC88511C92668F00D33283 /* naviImage.png */; };
+		0CFC88541C9270E000D33283 /* MutuluLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC88531C9270E000D33283 /* MutuluLogo.jpg */; };
 		C9DC74780F1A9AE4DCCEF50B /* libPods-UC美女.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4119F3D8E707CF1720171A /* libPods-UC美女.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +60,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3496891C796153006EBE01 /* RoseAebell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoseAebell.png; sourceTree = "<group>"; };
+		0C360A071C96D5FB00393BF2 /* TouchWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchWindow.h; sourceTree = "<group>"; };
+		0C360A081C96D5FB00393BF2 /* TouchWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchWindow.m; sourceTree = "<group>"; };
+		0C360A0A1C96DBE700393BF2 /* XATouchBackgroudController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XATouchBackgroudController.h; sourceTree = "<group>"; };
+		0C360A0B1C96DBE700393BF2 /* XATouchBackgroudController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XATouchBackgroudController.m; sourceTree = "<group>"; };
+		0C360A0D1C96DC1B00393BF2 /* touchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touchImage.jpg; sourceTree = "<group>"; };
+		0C831E031C78A83100734627 /* bigPicture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bigPicture.plist; sourceTree = "<group>"; };
+		0C831E051C78A8F900734627 /* XAModelPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAModelPhotoController.h; sourceTree = "<group>"; };
+		0C831E061C78A8F900734627 /* XAModelPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAModelPhotoController.m; sourceTree = "<group>"; };
+		0C831E081C78B59400734627 /* XABigPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABigPictureCell.h; sourceTree = "<group>"; };
+		0C831E091C78B59400734627 /* XABigPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABigPictureCell.m; sourceTree = "<group>"; };
+		0C831E0A1C78B59400734627 /* XABigPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XABigPictureCell.xib; sourceTree = "<group>"; };
+		0C831E0D1C78B5AC00734627 /* XABigPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABigPicture.h; sourceTree = "<group>"; };
+		0C831E0E1C78B5AC00734627 /* XABigPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABigPicture.m; sourceTree = "<group>"; };
 		0CAD3F8F1C779E5200E91B82 /* UC美女.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UC美女.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAD3F931C779E5200E91B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CAD3F951C779E5200E91B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,7 +97,6 @@
 		0CAD3FDE1C77A48400E91B82 /* XABeautyFirstListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XABeautyFirstListCell.xib; sourceTree = "<group>"; };
 		0CAD3FE11C77A6B900E91B82 /* XAFirstList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAFirstList.h; sourceTree = "<group>"; };
 		0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAFirstList.m; sourceTree = "<group>"; };
-		0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beauty0.jpg; sourceTree = "<group>"; };
 		0CAD3FE71C77AB1000E91B82 /* firstList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = firstList.plist; sourceTree = "<group>"; };
 		0CAD3FEA1C77B5A700E91B82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CAD3FEC1C77B5A700E91B82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +108,10 @@
 		0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XADetailCell.xib; sourceTree = "<group>"; };
 		0CAD40001C77B5A700E91B82 /* XADetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADetail.h; sourceTree = "<group>"; };
 		0CAD40011C77B5A700E91B82 /* XADetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADetail.m; sourceTree = "<group>"; };
+		0CFC884E1C92643D00D33283 /* XAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAViewController.h; sourceTree = "<group>"; };
+		0CFC884F1C92643D00D33283 /* XAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAViewController.m; sourceTree = "<group>"; };
+		0CFC88511C92668F00D33283 /* naviImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviImage.png; sourceTree = "<group>"; };
+		0CFC88531C9270E000D33283 /* MutuluLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MutuluLogo.jpg; sourceTree = "<group>"; };
 		6E4119F3D8E707CF1720171A /* libPods-UC美女.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UC美女.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0D1563A481A87BECA9474B /* Pods-UC美女.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UC美女.release.xcconfig"; path = "Pods/Target Support Files/Pods-UC美女/Pods-UC美女.release.xcconfig"; sourceTree = "<group>"; };
 		C248A42A05B66B367BAAF20F /* Pods-UC美女.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UC美女.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UC美女/Pods-UC美女.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +146,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C360A061C96D5FB00393BF2 /* UITouch */ = {
+			isa = PBXGroup;
+			children = (
+				0C360A0D1C96DC1B00393BF2 /* touchImage.jpg */,
+				0C360A071C96D5FB00393BF2 /* TouchWindow.h */,
+				0C360A081C96D5FB00393BF2 /* TouchWindow.m */,
+				0C360A0A1C96DBE700393BF2 /* XATouchBackgroudController.h */,
+				0C360A0B1C96DBE700393BF2 /* XATouchBackgroudController.m */,
+			);
+			path = UITouch;
+			sourceTree = "<group>";
+		};
 		0CAD3F861C779E5200E91B82 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +219,7 @@
 		0CAD3FC81C779FD300E91B82 /* Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				0C360A061C96D5FB00393BF2 /* UITouch */,
 				0CAD3FD81C77A2F000E91B82 /* Base */,
 				0CAD3FC91C779FD300E91B82 /* Category */,
 				0CAD3FCA1C779FD300E91B82 /* Class */,
@@ -209,6 +250,8 @@
 		0CAD3FCB1C779FD300E91B82 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0CFC884E1C92643D00D33283 /* XAViewController.h */,
+				0CFC884F1C92643D00D33283 /* XAViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +295,8 @@
 				0CAD3FD61C77A23900E91B82 /* XABeautyBaseListController.m */,
 				0CAD3FF81C77B5A700E91B82 /* XAModelDetailController.h */,
 				0CAD3FF91C77B5A700E91B82 /* XAModelDetailController.m */,
+				0C831E051C78A8F900734627 /* XAModelPhotoController.h */,
+				0C831E061C78A8F900734627 /* XAModelPhotoController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -263,6 +308,8 @@
 				0CAD3FE21C77A6B900E91B82 /* XAFirstList.m */,
 				0CAD40001C77B5A700E91B82 /* XADetail.h */,
 				0CAD40011C77B5A700E91B82 /* XADetail.m */,
+				0C831E0D1C78B5AC00734627 /* XABigPicture.h */,
+				0C831E0E1C78B5AC00734627 /* XABigPicture.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +323,9 @@
 				0CAD3FFB1C77B5A700E91B82 /* XADetailCell.h */,
 				0CAD3FFC1C77B5A700E91B82 /* XADetailCell.m */,
 				0CAD3FFD1C77B5A700E91B82 /* XADetailCell.xib */,
+				0C831E081C78B59400734627 /* XABigPictureCell.h */,
+				0C831E091C78B59400734627 /* XABigPictureCell.m */,
+				0C831E0A1C78B59400734627 /* XABigPictureCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,7 +333,9 @@
 		0CAD3FD31C779FD300E91B82 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				0CAD3FE41C77A7AF00E91B82 /* beauty0.jpg */,
+				0CFC88531C9270E000D33283 /* MutuluLogo.jpg */,
+				0CFC88511C92668F00D33283 /* naviImage.png */,
+				0C3496891C796153006EBE01 /* RoseAebell.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -315,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				0CAD3FE71C77AB1000E91B82 /* firstList.plist */,
+				0C831E031C78A83100734627 /* bigPicture.plist */,
 			);
 			path = website;
 			sourceTree = "<group>";
@@ -456,10 +509,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CAD3FE51C77A7AF00E91B82 /* beauty0.jpg in Resources */,
+				0CFC88521C92668F00D33283 /* naviImage.png in Resources */,
 				0CAD3FA51C779E5200E91B82 /* LaunchScreen.storyboard in Resources */,
 				0CAD3FE81C77AB1000E91B82 /* firstList.plist in Resources */,
+				0C34968A1C796153006EBE01 /* RoseAebell.png in Resources */,
 				0CAD3FA21C779E5200E91B82 /* Assets.xcassets in Resources */,
+				0C831E0C1C78B59400734627 /* XABigPictureCell.xib in Resources */,
+				0CFC88541C9270E000D33283 /* MutuluLogo.jpg in Resources */,
+				0C831E041C78A83100734627 /* bigPicture.plist in Resources */,
+				0C360A0E1C96DC1B00393BF2 /* touchImage.jpg in Resources */,
 				0CAD3FE01C77A48400E91B82 /* XABeautyFirstListCell.xib in Resources */,
 				0CAD3FFF1C77B5A700E91B82 /* XADetailCell.xib in Resources */,
 			);
@@ -534,15 +592,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C831E071C78A8F900734627 /* XAModelPhotoController.m in Sources */,
 				0CAD3FE31C77A6B900E91B82 /* XAFirstList.m in Sources */,
+				0C360A091C96D5FB00393BF2 /* TouchWindow.m in Sources */,
 				0CAD3F971C779E5200E91B82 /* AppDelegate.m in Sources */,
 				0CAD3FDF1C77A48400E91B82 /* XABeautyFirstListCell.m in Sources */,
+				0C831E0B1C78B59400734627 /* XABigPictureCell.m in Sources */,
+				0CFC88501C92643D00D33283 /* XAViewController.m in Sources */,
 				0CAD40021C77B5A700E91B82 /* XADetail.m in Sources */,
 				0CAD3FD71C77A23900E91B82 /* XABeautyBaseListController.m in Sources */,
+				0C360A0C1C96DBE700393BF2 /* XATouchBackgroudController.m in Sources */,
 				0CAD3FDB1C77A31400E91B82 /* AppDelegate+XABeautyFirst.m in Sources */,
 				0CAD3FFE1C77B5A700E91B82 /* XADetailCell.m in Sources */,
 				0CAD3FFA1C77B5A700E91B82 /* XAModelDetailController.m in Sources */,
 				0CAD3F941C779E5200E91B82 /* main.m in Sources */,
+				0C831E0F1C78B5AC00734627 /* XABigPicture.m in Sources */,
 				0CAD3FA01C779E5200E91B82 /* UC__.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -678,7 +742,7 @@
 				INFOPLIST_FILE = "UC美女/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UCBeautys.www;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-RoseKissYou-UC-Girls.git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -691,7 +755,7 @@
 				INFOPLIST_FILE = "UC美女/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UCBeautys.www;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-RoseKissYou-UC-Girls.git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

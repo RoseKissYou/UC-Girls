@@ -13,6 +13,9 @@
 #import "XAFirstList.h"
 //打开网页
 #import "XAModelDetailController.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+static NSInteger _locationStatue;
+static NSInteger _insertt = 30;
 @interface XABeautyBaseListController ()
 @property (nonatomic,assign) CGFloat num;
 //image list
@@ -35,13 +38,13 @@ static NSString *ID = @"firstcell";
     //每个cell的间距
     CGFloat minimum = 2;
     //一行cell 的个数
-    CGFloat count = 3;
+   // CGFloat count = 1;
     //每一行的上下距离
     CGFloat minimum2 = 2;
     //每个cell的宽
-    CGFloat cellW = (screecW  - minimum *count - minimum)/count ;
+    CGFloat cellW = screecW ;
     //每个cell的高
-    CGFloat cellH = cellW * 3 / 2;
+    CGFloat cellH = cellW  / 2;
     layout.itemSize = CGSizeMake(cellW, cellH);
     
     // 设置每一行的间距
@@ -60,32 +63,64 @@ static NSString *ID = @"firstcell";
     
     
 }
+// logo图片  http://pic.yiipic.com/css/logo.jpg
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //self.collectionView.contentOffset.y = 0;
     
+    //设置 navigation bar
+    [self setNavigationBar];
+    //从plist获取文件信息
+    [self requetPICFromPlist];
+   
+}
+- (void) viewWillAppear:(BOOL)animated
+{
+    [self.collectionView setContentOffset:CGPointMake(0, 0) animated:YES];
+}
+#pragma mark - 设置 navigation bar
+- (void) setNavigationBar
+{
     self.collectionView.backgroundColor = [UIColor whiteColor];
-    
+    //设置全局返回汉化
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
     backItem.title = @"返回";
     self.navigationItem.backBarButtonItem = backItem;
-   
-    self.navigationItem.title = @"美图录";
+    
+    //初始化透明 navigation bar
+    UIImage *backNavi = [UIImage imageNamed:@"naviImage.png"];
+    [self.navigationController.navigationBar setBackgroundImage:backNavi
+                                                  forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage:backNavi];
+    
+    UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MutuluLogo.jpg"]];
+    [logoView setFrame:CGRectMake(0, 0, 100, 30)];
+    self.navigationItem.titleView = logoView;
+    
+}
+
+#pragma mark - 从plist获取文件信息
+- (void) requetPICFromPlist
+{
+    //图片信息取自于plist
     NSString *firstPath = [[NSBundle mainBundle] pathForResource:@"firstList" ofType:@"plist"];
     NSDictionary *firstDict = [NSDictionary dictionaryWithContentsOfFile:firstPath];
     NSArray *firstArray = firstDict[@"firstList"];
+    
+    //这里需要图片在后台加载,但是先显示占位图片 并且加载一张就显示一张
     
     NSMutableArray *headerTemp = [NSMutableArray arrayWithCapacity:firstArray.count];
     for (NSDictionary *dict  in firstArray) {
         XAFirstList *first = [XAFirstList firstImageListWithDict:dict];
         [headerTemp addObject:first ];
+        // [self.collectionView registerNib:[UINib nibWithNibName:@"XABeautyFirstListCell" bundle:nil] forCellWithReuseIdentifier:ID];
     }
     self.firstListArray = headerTemp;
     
-    // 注册cell
-   // [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:ID];
+    
     [self.collectionView registerNib:[UINib nibWithNibName:@"XABeautyFirstListCell" bundle:nil] forCellWithReuseIdentifier:ID];
-    //    // 取消弹簧效果
-    //    self.collectionView.bounces = NO;
+    // 取消弹簧效果
+    self.collectionView.bounces = NO;
     //
     //    // 取消显示指示器
     //    self.collectionView.showsHorizontalScrollIndicator = NO;
@@ -108,9 +143,14 @@ static NSString *ID = @"firstcell";
    
     XABeautyFirstListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     XAFirstList *first = self.firstListArray[indexPath.row];
-    [cell.xaListImageView setImage:first.imageName];
+   // [cell.xaListImageView setImage:first.imageName];
+    [cell.xaListImageView sd_setImageWithURL:first.imageName placeholderImage:[UIImage imageNamed:@"RoseAebell"]];
     [cell.xaListImageNameLabel setText:first.modelName];
     [cell.plistName setText:first.plistName];
+    [cell.modelBirthdayLabel setText:first.modelBirthday];
+    [cell.modelHighLabel setText:first.modelHigh];
+    [cell.modelBWHLabel setText:first.modelBWH];
+    [cell.modelOtherLabel setText:first.modelOther];
    
     return cell;
 }
@@ -123,6 +163,7 @@ static NSString *ID = @"firstcell";
     XAFirstList *first = self.firstListArray[indexPath.row];
     XAModelDetailController *modelController  = [[XAModelDetailController alloc] init];
     modelController.plistName = first.plistName;
+    modelController.modelName = first.modelName;
     
     NSLog( @"传递plist name : %@ ",modelController.plistName);
     [self.navigationController pushViewController:modelController animated:YES];
@@ -131,6 +172,43 @@ static NSString *ID = @"firstcell";
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+//UIScrollView滚动时隐藏底部导航栏问题
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"开始滚动");
+    int currentPostion = scrollView.contentOffset.y;
+    if (currentPostion - _locationStatue > _insertt && currentPostion > 0) {
+        _locationStatue = currentPostion;
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }else if ((_locationStatue - currentPostion > _insertt) && (currentPostion <= scrollView.contentSize.height - scrollView.bounds.size.height - _insertt)){
+        _locationStatue = currentPostion    ;
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }
+    
+//    if (currentPostion - _lastPosition > 0  && currentPostion >0) {
+//        
+//        _lastPosition = currentPostion;
+//        
+//        NSLog(@"ScrollUp now");
+//        
+//        self.tabBarController.tabBar.hidden =YES;
+//        
+//      //  [self.navigationControllersetNavigationBarHidden:YESanimated:YES];
+//        
+//    }
+//    else if ((_lastPosition - currentPostion >20) && (currentPostion  <= scrollView.contentSize.height-scrollView.bounds.size.height-20) )
+//    {
+//        
+//        _lastPosition = currentPostion;
+//        NSLog(@"ScrollDown now");
+//        
+//        self.tabBarController.tabBar.hidden =NO;//隐藏时，没有动画效果
+//        [self.navigationControllersetNavigationBarHidden:NOanimated:YES];
+        
+  //  }
 }
 
 /*

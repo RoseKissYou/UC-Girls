@@ -15,9 +15,11 @@
     [x setImageName:dict[@"photoName"]];
     [x setImageCount:dict[@"photoNumber"]];
     //imageView
-    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:dict[@"iconWeb"]]];
-    [x setImageView:[UIImage imageWithData:data]];
+//    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:dict[@"iconWeb"]]];
+//    [x setImageView:[UIImage imageWithData:data]];
+    [x setImageView:dict[@"iconWeb"]];
     [x setImageUrl:dict[@"photoWeb"]];
+    [x setPlistName:dict[@"plistName"]];
     return x;
 }
 @end

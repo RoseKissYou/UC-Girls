@@ -2,15 +2,357 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Akiki</key>
+	<array>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiGodness1</string>
+			<key>photoName</key>
+			<string>《女神驾到》之武义牛头山温泉</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702110626880.jpg</string>
+			<key>photoNumber</key>
+			<string>51 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/1938.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiNO4</string>
+			<key>photoName</key>
+			<string>云曼旅拍 第四刊</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1117/thumb_220_300_20151117115813358.jpg</string>
+			<key>photoNumber</key>
+			<string>57 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4875.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiNO3</string>
+			<key>photoName</key>
+			<string>云曼旅拍 第三刊</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1116/thumb_220_300_20151116092651222.jpg</string>
+			<key>photoNumber</key>
+			<string>42 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4865.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiNO2</string>
+			<key>photoName</key>
+			<string>云曼旅拍 第二刊套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1116/thumb_220_300_20151116084400725.jpg</string>
+			<key>photoNumber</key>
+			<string>55 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4860.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiNO1</string>
+			<key>photoName</key>
+			<string>云曼旅拍 第一刊套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1116/thumb_220_300_20151116112520536.jpg</string>
+			<key>photoNumber</key>
+			<string>52 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4856.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiGodness2</string>
+			<key>photoName</key>
+			<string>《女神驾到》之遂昌汤沐园</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702105906663.jpg</string>
+			<key>photoNumber</key>
+			<string>52 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/1936.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>AkikiGodness15</string>
+			<key>photoName</key>
+			<string>《女神去哪儿》第15期</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702103014543.jpg</string>
+			<key>photoNumber</key>
+			<string>60 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/1886.html</string>
+		</dict>
+	</array>
+	<key>liufeier</key>
+	<array>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO323</string>
+			<key>photoName</key>
+			<string>泰国清迈压轴写真套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2016/0124/thumb_220_300_20160124062044672.jpg</string>
+			<key>photoNumber</key>
+			<string>55 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/5433.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL115</string>
+			<key>photoName</key>
+			<string>大理旅拍的最后一套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0811/thumb_220_300_20150811034138455.jpg</string>
+			<key>photoNumber</key>
+			<string>57 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3659.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO406</string>
+			<key>photoName</key>
+			<string>巴厘岛旅拍第一套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1225/thumb_220_300_20151225063254976.jpg</string>
+			<key>photoNumber</key>
+			<string>66 张(1600X2400)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/5249.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO390</string>
+			<key>photoName</key>
+			<string>菲律宾宿务旅拍最后一套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202111203593.jpg</string>
+			<key>photoNumber</key>
+			<string>27 张(1656X2484)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/5040.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO369</string>
+			<key>photoName</key>
+			<string>爆乳比基尼系列写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202103032340.jpg</string>
+			<key>photoNumber</key>
+			<string>68 张(1656X2484)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/5034.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO325</string>
+			<key>photoName</key>
+			<string>性感爆乳水手装</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1014/thumb_220_300_20151014120636704.jpg</string>
+			<key>photoNumber</key>
+			<string>54 张(1120X1596)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4433.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL003</string>
+			<key>photoName</key>
+			<string>大理旅拍 超高清套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0927/thumb_220_300_20150927054040584.jpg</string>
+			<key>photoNumber</key>
+			<string>46 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/4173.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierNO362</string>
+			<key>photoName</key>
+			<string>菲律宾宿务旅拍第二套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202102308886.jpg</string>
+			<key>photoNumber</key>
+			<string>46 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/5033.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierPai2</string>
+			<key>photoName</key>
+			<string>泰国Pai县的第二套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080449605.jpg</string>
+			<key>photoNumber</key>
+			<string>46 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3405.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL112</string>
+			<key>photoName</key>
+			<string>大理旅拍第三套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0811/thumb_220_300_20150811032446605.jpg</string>
+			<key>photoNumber</key>
+			<string>73 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3656.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL109</string>
+			<key>photoName</key>
+			<string>户外牛奶篇+室内性感皮裤篇</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091732954.jpg</string>
+			<key>photoNumber</key>
+			<string>63 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3583.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL104</string>
+			<key>photoName</key>
+			<string>大理旅拍第一套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091519624.jpg</string>
+			<key>photoNumber</key>
+			<string>63 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3578.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeierVOL078</string>
+			<key>photoName</key>
+			<string>厦门鼓浪屿旅拍第二套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804090645736.jpg</string>
+			<key>photoNumber</key>
+			<string>47 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3553.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>厦门旅拍写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804090615769.jpg</string>
+			<key>photoNumber</key>
+			<string>57 张(1608X2412)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3551.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>泰国Pai县第三套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080449605.jpg</string>
+			<key>photoNumber</key>
+			<string>46 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3405.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>泰国Pai县第二套写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080229968.jpg</string>
+			<key>photoNumber</key>
+			<string>53 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3399.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>厦门鼓浪屿旅拍写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0721/thumb_220_300_20150721032445163.jpg</string>
+			<key>photoNumber</key>
+			<string>48 张(1608X2412)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/3301.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>足球宝贝、小提琴、护士的诱惑套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702105406605.jpg</string>
+			<key>photoNumber</key>
+			<string>58 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/1925.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>liufeier</string>
+			<key>photoName</key>
+			<string>性感主题拍摄宝贝私房写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702103542983.jpg</string>
+			<key>photoNumber</key>
+			<string>63 张(1632X2448)</string>
+			<key>photoWeb</key>
+			<string>http:/www.meitulu.com/item/1906.html</string>
+		</dict>
+	</array>
 	<key>firstList</key>
 	<array>
+		<dict>
+			<key>plistName</key>
+			<string>Akiki</string>
+			<key>modelName</key>
+			<string>朱若慕</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1116/thumb_220_300_20151116092651222.jpg</string>
+			<key>modelBirthday</key>
+			<string>1991-05-18</string>
+			<key>modelHigh</key>
+			<string>身高：168公分；体重：49KG</string>
+			<key>modelBWH</key>
+			<string>三围：B90 W63 H91</string>
+			<key>modelOther</key>
+			<string>职业：模特、淘女郎</string>
+		</dict>
 		<dict>
 			<key>plistName</key>
 			<string>liufeier</string>
 			<key>modelName</key>
 			<string>刘飞儿</string>
 			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0724/20150724115630219.jpg</string>
+			<string>http://pic.yiipic.com/uploadfile/2016/0124/thumb_220_300_20160124062044672.jpg</string>
+			<key>modelBirthday</key>
+			<string>1993-03-14</string>
+			<key>modelHigh</key>
+			<string>身高：162公分;体重：46KG</string>
+			<key>modelBWH</key>
+			<string>三围：B93 W60 H89</string>
+			<key>modelOther</key>
+			<string>出生地：湖南；职业：模特、淘女郎</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -19,6 +361,14 @@
 			<string>Barbie可儿</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2015/0731/thumb_220_300_20150731092822497.jpg</string>
+			<key>modelBirthday</key>
+			<string>原名：朱可</string>
+			<key>modelHigh</key>
+			<string>1994-10-01</string>
+			<key>modelBWH</key>
+			<string>身高：162公分</string>
+			<key>modelOther</key>
+			<string>出生地：湖北武汉；职业：模特；新浪微博女神计划 官方认证女神</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -27,6 +377,14 @@
 			<string>Cheryl青树</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2016/0113/thumb_220_300_20160113043158485.jpg</string>
+			<key>modelBirthday</key>
+			<string>1994年12月26日</string>
+			<key>modelHigh</key>
+			<string>身高：165公分;体重：44KG</string>
+			<key>modelBWH</key>
+			<string>三围：B86 W62 H88</string>
+			<key>modelOther</key>
+			<string>职业：主持人、平面模特；自我介绍：宇宙无敌美丽可爱温柔聪慧就是我</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -35,6 +393,14 @@
 			<string>绮里嘉</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2015/0721/thumb_220_300_20150721032946919.jpg</string>
+			<key>modelBirthday</key>
+			<string>1994-01-29</string>
+			<key>modelHigh</key>
+			<string>身高：167公分；体重：46 KG</string>
+			<key>modelBWH</key>
+			<string>三围：B95(F) W61 H89</string>
+			<key>modelOther</key>
+			<string>本身是一个平面模特；后来拍摄了性感的写真集而被网友所熟知；其外表清新、拍摄的写真集风格较性感</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -43,6 +409,14 @@
 			<string>SISY思</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2015/1224/thumb_220_300_20151224053444198.jpg</string>
+			<key>modelBirthday</key>
+			<string>1990-09-13</string>
+			<key>modelHigh</key>
+			<string>身高：165公分</string>
+			<key>modelBWH</key>
+			<string>三围：B86 W66 H91</string>
+			<key>modelOther</key>
+			<string>来自：广东广州；职业：平面模特 秀人网爱蜜社模特</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -51,6 +425,14 @@
 			<string>杨晓青儿</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091409646.jpg</string>
+			<key>modelBirthday</key>
+			<string>1993-08-24</string>
+			<key>modelHigh</key>
+			<string>身高：165公分；体重：42KG</string>
+			<key>modelBWH</key>
+			<string>三围：B84 W59 H86</string>
+			<key>modelOther</key>
+			<string>来自：中国湖北武汉；职业：演员/模特；据微博认证资料显示是：广州猫讯广告有限公司的总裁</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -58,7 +440,15 @@
 			<key>modelName</key>
 			<string>松本纱雪</string>
 			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0718/thumb_220_300_20150718033236875.jpg</string>
+			<string>http://pic.yiipic.com/uploadfile/2015/0704/20150704034413481.jpg</string>
+			<key>modelBirthday</key>
+			<string>1985年12月9日</string>
+			<key>modelHigh</key>
+			<string>身高：172cm</string>
+			<key>modelBWH</key>
+			<string>三围：91-60-90</string>
+			<key>modelOther</key>
+			<string>日本名字：松本さゆき  职业：模特、歌手、演员 出道时间2004年</string>
 		</dict>
 		<dict>
 			<key>plistName</key>
@@ -66,12 +456,22 @@
 			<key>modelName</key>
 			<string>王语纯</string>
 			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1224/thumb_220_300_20151224040607799.jpg</string>
+			<string>http://pic.yiipic.com/uploadfile/2015/1007/thumb_220_300_20151007122337118.jpg</string>
+			<key>modelBirthday</key>
+			<string>1992-11-17</string>
+			<key>modelHigh</key>
+			<string>身高：170公分</string>
+			<key>modelBWH</key>
+			<string>三围：B89 W64 H90</string>
+			<key>modelOther</key>
+			<string>职业：模特</string>
 		</dict>
 	</array>
 	<key>wangyuchun</key>
 	<array>
 		<dict>
+			<key>plistName</key>
+			<string>wangyuchunVOL038</string>
 			<key>photoName</key>
 			<string>校园体操服系列写真套图</string>
 			<key>iconWeb</key>
@@ -205,6 +605,8 @@
 	<key>Sayuki</key>
 	<array>
 		<dict>
+			<key>plistName</key>
+			<string>SayukiNO1174</string>
 			<key>photoName</key>
 			<string>普吉岛第四套清新性感写真</string>
 			<key>iconWeb</key>
@@ -298,16 +700,8 @@
 	<key>SISY</key>
 	<array>
 		<dict>
-			<key>photoName</key>
-			<string>普吉岛第四套清新性感写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1224/thumb_220_300_20151224061350679.jpg</string>
-			<key>photoNumber</key>
-			<string>61 张(1656X2484)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/3403.html</string>
-		</dict>
-		<dict>
+			<key>plistName</key>
+			<string>SISIVOL030</string>
 			<key>photoName</key>
 			<string>旗袍+晚礼裙写真套图</string>
 			<key>iconWeb</key>
@@ -316,6 +710,16 @@
 			<string>53 张(1656X2484)</string>
 			<key>photoWeb</key>
 			<string>http://www.meitulu.com/item/5204.html</string>
+		</dict>
+		<dict>
+			<key>photoName</key>
+			<string>普吉岛第四套清新性感写真</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/1224/thumb_220_300_20151224061350679.jpg</string>
+			<key>photoNumber</key>
+			<string>61 张(1656X2484)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3403.html</string>
 		</dict>
 		<dict>
 			<key>photoName</key>
@@ -554,6 +958,32 @@
 	<key>yangxiaoqin</key>
 	<array>
 		<dict>
+			<key>plistName</key>
+			<string>yangxiaoqinPai1</string>
+			<key>photoName</key>
+			<string>泰国清迈Pai县旅拍套图</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091409646.jpg</string>
+			<key>photoNumber</key>
+			<string>82 张(1620X2430)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3568.html</string>
+		</dict>
+		<dict>
+			<key>photoName</key>
+			<string>杨晓青儿 校服清纯写真套图</string>
+			<key>plistName</key>
+			<string>yangxiaoqinSchool</string>
+			<key>iconWeb</key>
+			<string>http://pic.yiipic.com/uploadfile/2015/0804/20150804091656988.jpg</string>
+			<key>photoNumber</key>
+			<string>66 张(1000X1500)</string>
+			<key>photoWeb</key>
+			<string>http://www.meitulu.com/item/3571.html</string>
+		</dict>
+		<dict>
+			<key>plistName</key>
+			<string>yangxiaoqinVOL005</string>
 			<key>photoName</key>
 			<string>VOL.005 杨晓青儿 写真套图</string>
 			<key>iconWeb</key>
@@ -564,6 +994,8 @@
 			<string>http://www.meitulu.com/item/4992.html</string>
 		</dict>
 		<dict>
+			<key>plistName</key>
+			<string></string>
 			<key>photoName</key>
 			<string>泰国Pai县写真最后一套</string>
 			<key>iconWeb</key>
@@ -574,6 +1006,8 @@
 			<string>http://www.meitulu.com/item/3576.html</string>
 		</dict>
 		<dict>
+			<key>plistName</key>
+			<string></string>
 			<key>photoName</key>
 			<string>泰国Pai县写真第三套图</string>
 			<key>iconWeb</key>
@@ -584,24 +1018,16 @@
 			<string>http://www.meitulu.com/item/3574.html</string>
 		</dict>
 		<dict>
+			<key>plistName</key>
+			<string>yangxiaoqinPai2</string>
 			<key>photoName</key>
 			<string>泰国旅拍第二套写真</string>
 			<key>iconWeb</key>
 			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091653984.jpg</string>
 			<key>photoNumber</key>
-			<string>88 张(1000X1500)</string>
+			<string>22 张(1000X1500)</string>
 			<key>photoWeb</key>
 			<string>http://www.meitulu.com/item/3571.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>泰国清迈Pai县旅拍套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091409646.jpg</string>
-			<key>photoNumber</key>
-			<string>82 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/3568.html</string>
 		</dict>
 	</array>
 	<key>barbie</key>
@@ -928,199 +1354,6 @@
 			<string>45 张(1632X2448)</string>
 			<key>photoWeb</key>
 			<string>http://www.meitulu.com/item/4857.html</string>
-		</dict>
-	</array>
-	<key>liufeier</key>
-	<array>
-		<dict>
-			<key>photoName</key>
-			<string>泰国清迈压轴写真套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2016/0116/thumb_220_300_20160116052639685.jpg</string>
-			<key>photoNumber</key>
-			<string>55 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/5433.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>大理旅拍 超高清套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0811/thumb_220_300_20150811034138455.jpg</string>
-			<key>photoNumber</key>
-			<string>57 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/3659.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>巴厘岛旅拍第一套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1225/thumb_220_300_20151225063254976.jpg</string>
-			<key>photoNumber</key>
-			<string>66 张(1600X2400)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/5249.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>巴厘岛旅拍第二套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202111203593.jpg</string>
-			<key>photoNumber</key>
-			<string>27 张(1656X2484)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/5040.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>菲律宾宿务旅拍最后一套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202103032340.jpg</string>
-			<key>photoNumber</key>
-			<string>68 张(1656X2484)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/5034.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>菲律宾宿务旅拍第二套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1014/thumb_220_300_20151014120636704.jpg</string>
-			<key>photoNumber</key>
-			<string>54 张(1120X1596)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/4433.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>性感爆乳水手装</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0927/thumb_220_300_20150927054040584.jpg</string>
-			<key>photoNumber</key>
-			<string>46 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/4173.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>爆乳比基尼系列写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/1202/thumb_220_300_20151202102308886.jpg</string>
-			<key>photoNumber</key>
-			<string>46 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/5033.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>泰国Pai县的第二套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0724/20150724115630219.jpg</string>
-			<key>photoNumber</key>
-			<string>46 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/3405.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>大理旅拍的最后一套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0811/thumb_220_300_20150811032446605.jpg</string>
-			<key>photoNumber</key>
-			<string>73 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http://www.meitulu.com/item/3656.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>大理旅拍第三套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091732954.jpg</string>
-			<key>photoNumber</key>
-			<string>63 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3583.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>户外牛奶篇+室内性感皮裤篇</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804091519624.jpg</string>
-			<key>photoNumber</key>
-			<string>63 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3578.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>厦门鼓浪屿旅拍第二套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0804/thumb_220_300_20150804090615769.jpg</string>
-			<key>photoNumber</key>
-			<string>54 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3551.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>厦门旅拍写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080612376.jpg</string>
-			<key>photoNumber</key>
-			<string>57 张(1608X2412)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3409.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>泰国Pai县第三套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080449605.jpg</string>
-			<key>photoNumber</key>
-			<string>46 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3405.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>泰国Pai县第二套写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0724/thumb_220_300_20150724080229968.jpg</string>
-			<key>photoNumber</key>
-			<string>53 张(1620X2430)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3399.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>厦门鼓浪屿旅拍写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0721/thumb_220_300_20150721032445163.jpg</string>
-			<key>photoNumber</key>
-			<string>48 张(1608X2412)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/3301.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>足球宝贝、小提琴、护士的诱惑套图</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702105406605.jpg</string>
-			<key>photoNumber</key>
-			<string>58 张(1632X2448)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/1925.html</string>
-		</dict>
-		<dict>
-			<key>photoName</key>
-			<string>性感主题拍摄宝贝私房写真</string>
-			<key>iconWeb</key>
-			<string>http://pic.yiipic.com/uploadfile/2015/0702/thumb_220_300_20150702103542983.jpg</string>
-			<key>photoNumber</key>
-			<string>63 张(1632X2448)</string>
-			<key>photoWeb</key>
-			<string>http:/www.meitulu.com/item/1906.html</string>
 		</dict>
 	</array>
 </dict>

@@ -15,12 +15,17 @@
 {
     XAFirstList *x = [[XAFirstList alloc] init   ];
     [x setModelName:dict[@"modelName"]];
-    /* NSData * data = [NSData dataWithContentsOfURL:[NSURL URLWithString:fileURL]];
-     
-     result = [UIImage imageWithData:data]; */
-    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:dict[@"iconWeb"]]];
-    [x setImageName:[UIImage imageWithData:data]];
+    
+//    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:dict[@"iconWeb"]]];
+//    [x setImageName:[UIImage imageWithData:data]];
+    [x setImageName:dict[@"iconWeb"]];
     [x setPlistName:dict[@"plistName"]];
+    
+    [x setModelBirthday:dict[@"modelBirthday"]];
+    [x setModelHigh:dict[@"modelHigh"]];
+    
+    [x setModelBWH:dict[@"modelBWH"]];
+    [x setModelOther:dict[@"modelOther"]];
   
     return x;
 }

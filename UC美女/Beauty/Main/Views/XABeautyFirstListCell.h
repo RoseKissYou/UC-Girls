@@ -16,5 +16,13 @@
 //plist
 
 @property (weak, nonatomic) IBOutlet UILabel *plistName;
+//
+@property (weak, nonatomic) IBOutlet UILabel *modelBirthdayLabel;
+@property (weak, nonatomic) IBOutlet UILabel *modelHighLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *modelBWHLabel;
+@property (weak, nonatomic) IBOutlet UILabel *modelOtherLabel;
+
+
 
 @end

@@ -178,7 +178,7 @@ static NSString *ID = @"firstcell";
 //UIScrollView滚动时隐藏底部导航栏问题
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    NSLog(@"开始滚动");
+    //NSLog(@"开始滚动");
     int currentPostion = scrollView.contentOffset.y;
     if (currentPostion - _locationStatue > _insertt && currentPostion > 0) {
         _locationStatue = currentPostion;

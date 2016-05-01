@@ -1,31 +1,32 @@
 //
-//  XAModelPhotoController.m
+//  XAModelDetailController.m
 //  UC美女
 //
 //  Created by 小笨熊 on 16/2/20.
 //  Copyright © 2016年 Jake_Smith. All rights reserved.
-//
+// 这里用来显示选择的美女的相册列表
 
-#import "XAModelPhotoController.h"
+#import "XAModelDetailController.h"
 //cell
-#import "XABigPictureCell.h"
+#import "XADetailCell.h"
 //model
-#import "XABigPicture.h"
+#import "XADetail.h"
+#import "XAModelPhotoController.h"
 
 #import <SDWebImage/UIImageView+WebCache.h>
 
-@interface XAModelPhotoController ()
-@property (strong, nonatomic) NSArray *bigPicturesListArray;
-@property (strong, nonatomic) UIView *lookView;
-//picture
-@property (strong, nonatomic) XABigPicture *bigPic;
-@end
-
-@implementation XAModelPhotoController
-static NSString *detailID = @"bigpicture";
 static NSInteger _locationStatue;
 static NSInteger _insertt = 30;
+@interface XAModelDetailController ()
+@property (nonatomic,assign) CGFloat num;
+//images array
+@property (strong, nonatomic) NSArray *detailListArray;
+@end
 
+@implementation XAModelDetailController
+
+static NSString *detailID = @"detailcell";
+static NSString *headerID = @"headcell";
 -(instancetype)init{
     // 流水布局
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
@@ -37,12 +38,12 @@ static NSInteger _insertt = 30;
     //每个cell的间距
     CGFloat minimum = 2;
     //一行cell 的个数
-   // CGFloat count = 1;
+    CGFloat count = 2;
     //每一行的上下距离
     CGFloat minimum2 = 2;
     //每个cell的宽
-    CGFloat cellW = screecW   ;
-//    //每个cell的高
+    CGFloat cellW = (screecW  - minimum *count - minimum)/count ;
+    //每个cell的高
     CGFloat cellH = cellW * 3 / 2;
     layout.itemSize = CGSizeMake(cellW, cellH);
     
@@ -62,47 +63,62 @@ static NSInteger _insertt = 30;
     
     
 }
-
+- (void) viewWillAppear:(BOOL)animated
+{
+    [self.collectionView setContentOffset:CGPointMake(0, 0) animated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.collectionView.backgroundColor = [UIColor whiteColor];
-    
-    self.navigationItem.title = self.photoName;
-   
-    NSString *bigPath = [[NSBundle mainBundle] pathForResource:@"bigPicture" ofType:@"plist"];
-    NSDictionary *bigDict = [NSDictionary dictionaryWithContentsOfFile:bigPath];
-    
-    NSArray *bigArray = bigDict[self.plistName];
-    NSLog(@"接收到的plist name: %@",self.plistName);
-    NSMutableArray *bigTemp = [NSMutableArray arrayWithCapacity:bigArray.count];
-    for (NSDictionary *dict in bigArray) {
-        XABigPicture *big = [XABigPicture bigPictureWithDict:dict];
-        [bigTemp addObject:big ];
+    self.navigationItem.title = self.modelName;
 
-    }
-   self.bigPicturesListArray = [bigTemp copy];
+    NSString *detailPath = [[NSBundle mainBundle ] pathForResource:@"firstList" ofType:@"plist"];
+    NSDictionary *detailDict = [NSDictionary dictionaryWithContentsOfFile:detailPath];
+   
+    NSString *detailStr = self.plistName;
+  
+    NSArray *detailArray = detailDict[detailStr];
     
+    NSMutableArray *detailTemp = [NSMutableArray arrayWithCapacity:detailArray.count];
+    for (NSDictionary *dict in detailArray) {
+        XADetail *detail = [XADetail detailImageListWithDict:dict];
+        [detailTemp addObject:detail ];
+    }
+    self.detailListArray = detailTemp;
     
     // 注册cell
-   //  [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:detailID];
-    [self.collectionView registerNib:[UINib nibWithNibName:@"XABigPictureCell" bundle:nil] forCellWithReuseIdentifier:detailID];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"XADetailCell" bundle:nil] forCellWithReuseIdentifier:detailID];
+    
+        // 取消弹簧效果
+        self.collectionView.bounces = NO;
+    //
+    //    // 取消显示指示器
+    //    self.collectionView.showsHorizontalScrollIndicator = NO;
+    //
+    //    // 开启分页模式
+    //    self.collectionView.pagingEnabled = YES;
     // Do any additional setup after loading the view.
 }
+
 #pragma mark - UICollectionView数据源
 // 返回有多少个cell
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return  self.bigPicturesListArray.count;
+    return self.detailListArray.count;
 }
 
 // 返回每个cell长什么样子
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-   
-    XABigPictureCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:detailID forIndexPath:indexPath];
-    self.bigPic = self.bigPicturesListArray[indexPath.row];
-   // XABigPicture *big = self.bigPicturesListArray[indexPath.row];
-    [cell.bigPictureImageView sd_setImageWithURL:[NSURL URLWithString:self.bigPic.bigPictName] placeholderImage:[UIImage imageNamed:@"RoseAebell"]];
+    XADetailCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:detailID forIndexPath:indexPath];
+    
+    XADetail *detail = self.detailListArray[indexPath.row];
+   // [cell.modelImageView setImage:detail.imageView];
+    [cell.modelImageView sd_setImageWithURL:detail.imageView placeholderImage:[UIImage imageNamed:@"RoseAebell.png"]];
+    [cell.imagesNameLabel setText:detail.imageName];
+    [cell.imageCountLabel setText:detail.imageCount];
+    //load plist name
+    [cell.plistName setText:detail.plistName];
     return cell;
 }
 //点击cell相应
@@ -110,31 +126,16 @@ static NSInteger _insertt = 30;
 {
     NSLog(@"点击了%@",indexPath);
     NSLog(@"%ld",(long)indexPath.item); // 0 , 1 ...
-    //点击了<NSIndexPath: 0xc000000000600016> {NSInteger *imageCount = [indexPath.row]
-   
+    //点击了<NSIndexPath: 0xc000000000600016> {length = 2, path = 0 - 3}
+    XADetail *detail = self.detailListArray[indexPath.row];
+    XAModelPhotoController *modelCon = [[XAModelPhotoController alloc] init];
+    modelCon.plistName = detail.plistName;
+    modelCon.photoName = detail.imageName;
+    [self.navigationController pushViewController:modelCon animated:YES];
+    
+    
+    
 }
-//
-//- (void) lookBigPhotoOneByOne:(UIView *) collectionView
-//{
-//    self.lookView.hidden = NO;
-//    UIView *lookView = [[UIView alloc] initWithFrame:self.view.bounds];
-//    [lookView setBackgroundColor:[UIColor blackColor]];
-//    self.lookView = lookView;
-//    [self.view addSubview:lookView];
-//    
-//    UIImageView *lookImageView = [[UIImageView alloc] initWithFrame:lookView.frame];
-//    [lookImageView setImage:[UIImage imageNamed:@"RoseAebell"]];
-//    [lookView addSubview:lookImageView];
-//    //点击隐藏查看图片视图
-//    UIButton *clickButton = [UIButton buttonWithType:UIButtonTypeSystem];
-//    [clickButton setFrame:lookView.frame];
-//    [clickButton addTarget:self action:@selector(clickButtonHiddenView) forControlEvents:UIControlEventTouchUpInside];
-//    [lookView addSubview:clickButton];
-//}
-//- (void) clickButtonHiddenView
-//{
-//    self.lookView.hidden = YES;
-//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -143,7 +144,7 @@ static NSInteger _insertt = 30;
 //UIScrollView滚动时隐藏底部导航栏问题
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    NSLog(@"开始滚动");
+   // NSLog(@"开始滚动");
     int currentPostion = scrollView.contentOffset.y;
     if (currentPostion - _locationStatue > _insertt && currentPostion > 0) {
         _locationStatue = currentPostion;
